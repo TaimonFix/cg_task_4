@@ -31,8 +31,7 @@ public class GUIForm extends JFrame {
         this.setLocationRelativeTo(null);
         this.pack();
         this.setLocation(10,10);
-        this.setSize(new Dimension(1200, 700));
-
+        this.setSize(1300, 600);
 
         buttonInputImage.addActionListener(new ActionListener() {
             @Override
